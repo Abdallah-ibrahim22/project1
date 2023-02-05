@@ -1,0 +1,147 @@
+body{
+    font-family: "Montserrat";
+}
+#title{
+    background-color: #ff4c68 ;
+    color: white ;
+}
+
+.tittle_image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+    z-index: 0;
+}
+
+@media (max-width: 1028px ){
+    .tittle_image{
+        position: static;
+        transform: rotate(0);
+    }
+    #title {
+        text-align: center;
+    }
+}
+
+h1{
+    font-family: "Montserrat-black";
+    font-weight:bold;
+    font-size: 4.5rem;
+    line-height: 1.5 ;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-family: "Montserrat";
+    font-weight: bold ;
+}
+
+p{
+    color: #8f8f8f;
+    font-weight: 300;
+    font-weight: 500;
+}
+
+.ico{
+    margin-bottom: 4%;
+    color: #ef8172;
+}
+.ico:hover{
+    color: #ff4c68;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.navbar{
+    padding: 0 0 4.5rem 0;
+}
+.navbar .navbar-brand {
+    font-family: "ubuntu";
+    font-size: 3rem;
+    font-weight: bold;
+}
+.navbar .item{
+    padding: 0 , 20px ;
+}
+.nav-link{
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+
+.btn {
+    margin: 5%  3%  5% 0%;
+}
+
+#features{
+    padding: 7% 15%;
+    position: relative;
+    background-color: white;
+    z-index: 1;
+}
+.ea{
+    text-align: center;
+    padding: 5%;
+}
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+.carousel{
+    padding: 7% 15%;
+}
+.dogo{
+    width: 10%;
+    border-radius: 100%;
+    margin: 2%;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    margin-bottom: 2% ;
+    padding-bottom: 2%;
+}
+.logos{
+    margin: 20px 20px 50px ;
+    width: 10%;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.colo{
+    padding: 3% 2%;
+}
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    color: white;
+    padding: 7% 15%;
+}
+.cta-heading{
+    font-family: "Montserrat-black";
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: 500;
+    white-space: break-spaces;
+}
+#footer{
+    background-color: white;
+    text-align: center;
+    padding: 7% 15% ;
+
+}
+.icof{
+    padding: 15px;
+}
